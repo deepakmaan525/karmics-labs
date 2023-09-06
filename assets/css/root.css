@@ -1,0 +1,106 @@
+:root{
+    /* font-size */
+    --fs-16:16px;
+    --fs-20:20px;
+    --fs-35:35px;
+    --fs-56:56px;
+    --fs-64:64px;
+
+    /* font-weight */
+    --fw-300:300;
+    --fw-400:400;
+    --fw-500:500;
+    --fw-700:700;
+    /* color */
+    --white:#fff;
+    --black:#040404;
+    --grey:#B4B4B4;
+}
+/* nav-bar */
+.f-nav-li{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-700);
+    color: var(--white);
+}
+.f-button{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-700);
+    color: var(--white);
+}
+.f-button:hover{
+    color: var(--black);
+}
+.page-btn:hover{
+    background-color: var(--white);
+}
+.f-page-main{
+    font-size: var(--fs-35);
+    font-weight: var(--fw-300);
+    color: var(--white); 
+}
+.f-page-des{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--white); 
+}
+.f-rotatecard-main{
+    font-size: var(--fs-20);
+    font-weight: var(--fw-500);
+    color: var(--white); 
+}
+.f-rotatecard-des{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-300);
+    color: var(--white); 
+}
+/* 1st section */
+.f-section-main{
+    font-size: var(--fs-56);
+    font-weight: var(--fw-300);
+    color: var(--white); 
+}
+/* 2nd section */
+.f-services-main{
+    font-size: var(--fs-20);
+    font-weight: var(--fw-700);
+    color: var(--white); 
+}
+.f-services-des{
+    font-size: var(--fs-16);
+    font-weight: var(--fw400);
+    color: var(--grey); 
+}
+/* section 3 */
+.black-clr{
+    color: var(--black);
+}
+.f-project{
+    font-size: var(--fs-20);
+    font-weight: var(--fw-700);
+    color: var(--white);
+}
+.f-sec-btn{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-700);
+    color: var(--black);
+}
+.f-sec-btn:hover{
+    color: var(--white);
+}
+.sec-btn:hover{
+    background-color: var(--black);
+}
+/* 4th section */
+/* footer */
+.f-copyright{
+    font-size: var(--fs-16);
+    font-weight: var(--fw400);
+    color: var(--grey); 
+}
+@media (min-width:992px) {
+ .f-page-main{
+    font-size: var(--fs-64);
+    font-weight: var(--fw-300);
+    color: var(--white); 
+    }
+}
