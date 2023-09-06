@@ -503,7 +503,7 @@ align-items: flex-start;
         height: 100%;
         right: -100%;
         transition: .6s;
-        background-color: burlywood;
+        background-color: #2a466e;
     }
     .mobileView.show {
         right: 0;
