@@ -45,17 +45,12 @@ body {
 }
 .page-btn {
     border-radius: 82px;
-    padding: 12px 32px;
-    background-color: transparent;
+    padding: 12px 32px;    
     border: 2px solid var(--white);
     transition: .3s;
 }
-.arrow>svg path {
-    fill: #fff;
-    transition: .3s;
-}
-.page-btn:hover .arrow>svg path {
-    fill: black;
+.bg-transperent{
+    background-color: transparent;
 }
 .f-page-main {
     text-transform: uppercase;
@@ -236,7 +231,7 @@ align-items: flex-start;
     border-radius: 50%;
     position: absolute;
     top: -11%;
-    left: 72%;
+    left: 80%;
     transition: .3s;
     display: none;
 }
@@ -434,7 +429,6 @@ align-items: flex-start;
         left: 35%;
     }
 }
-
 @media (min-width:992px) {
     .menu {
         display: none;
