@@ -32,6 +32,7 @@ body {
 .bg-1st-sec-img {
     background-image: url("../images/header-background.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .gap-35 {
     gap: 35px;
@@ -212,6 +213,7 @@ align-items: flex-start;
     padding: 20px;
     border-radius: 12px;
     transition: .3s;
+    border: 1px solid transparent;
 }
 .services-card:hover {
     max-width: 264px;
@@ -275,7 +277,7 @@ align-items: flex-start;
     display: none;
 }
 .text-blur {
-    width: 273px;
+    width: 262px;
     height: 46px;
     border-radius: 0px 0px 8px 8px;
     background: rgba(255, 255, 255, 0.30);
