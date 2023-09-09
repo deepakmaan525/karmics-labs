@@ -277,7 +277,7 @@ align-items: flex-start;
     display: none;
 }
 .text-blur {
-    width: 262px;
+    width: 295px;
     height: 46px;
     border-radius: 0px 0px 8px 8px;
     background: rgba(255, 255, 255, 0.30);
@@ -364,6 +364,9 @@ align-items: flex-start;
     .ellipse1,.ellipse2,.ellipse3,.ellipse4{
         display: flex;
     }
+    .mt-sm-100{
+        margin-top: 100px;
+    }
     .py-sm-150{
         padding-top: 150px;
         padding-bottom: 150px;
@@ -429,6 +432,9 @@ align-items: flex-start;
         display: flex;
         top: 12%;
         left: 35%;
+    }
+    .text-blur{
+        width: 232px;
     }
 }
 @media (min-width:992px) {
@@ -509,5 +515,10 @@ align-items: flex-start;
         position: fixed;
         right: 2%;
         top: 33px;
+    }
+}
+@media (min-width:1200px) {
+    .text-blur{
+        width: 262px;
     }
 }
