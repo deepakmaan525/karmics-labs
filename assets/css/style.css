@@ -239,6 +239,7 @@ align-items: flex-start;
 }
 .moon-hover:hover .moon-circle-1 {
     display: flex;
+    transition: .3s;
 }
 /* 3rd-section */
 .mx-532 {
