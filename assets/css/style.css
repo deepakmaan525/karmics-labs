@@ -21,7 +21,7 @@
     filter: blur(124px);
     position: absolute;
     top: 0;
-    left: -23%;
+    left: -10%;
 }
 .container {
     max-width: 1140px !important;
@@ -32,7 +32,10 @@ body {
 .bg-1st-sec-img {
     background-image: url("../images/header-background.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+}
+.pb-70{
+    padding-bottom: 70px;
 }
 .gap-35 {
     gap: 35px;
@@ -50,12 +53,16 @@ body {
     border: 2px solid var(--white);
     transition: .3s;
 }
+.mx-398{
+    max-width: 398px;
+}
 .bg-transperent{
     background-color: transparent;
 }
 .f-page-main {
     text-transform: uppercase;
-    line-height: 108.687%;   
+    line-height: 108.687%; 
+    font-family: 'Sunflower', sans-serif;  
 }
 nav ul li a {
     position: relative;
@@ -123,7 +130,7 @@ font-family: 'Space Grotesk', sans-serif;
     filter: blur(124px);
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: -9%;
 }
 .width-263 {
     max-width: 263px;
@@ -234,7 +241,7 @@ align-items: flex-start;
     position: absolute;
     top: -11%;
     left: 80%;
-    transition: .3s;
+    transition: .5s;
     display: none;
 }
 .moon-hover:hover .moon-circle-1 {
@@ -285,7 +292,7 @@ align-items: flex-start;
     box-shadow: 0px -1px 11px 0px rgba(255, 255, 255, 0.10);
     backdrop-filter: blur(4.5px);
     position: absolute;
-    top: 74%;
+    bottom: 0;
     display: none;
     transition: .4s;
 }
@@ -331,7 +338,7 @@ align-items: flex-start;
     filter: blur(124px);
     position: absolute;
     top: 0;
-    right:-10%;
+    right:-16%;
 }
 .sec-4-line::before {
     content: '';
@@ -372,9 +379,9 @@ align-items: flex-start;
     .mt-sm-100{
         margin-top: 100px;
     }
-    .py-sm-150{
-        padding-top: 150px;
-        padding-bottom: 150px;
+    .py-sm-100{
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
     .pt-sm-150{
         padding-top: 150px;
@@ -391,14 +398,14 @@ align-items: flex-start;
         content: "";
         display: flex;
         position: absolute;
-        top: 14%;
+        top: -10%;
         left: 40%;
     }
     .first-sec-line::after{
         content: "";
         display: flex;
-        top: 22%;
-        left: 32%;
+        top: 64%;
+        left: 22%;
     }
     .sec-2-line::before {
         content: "";
@@ -450,13 +457,13 @@ align-items: flex-start;
         content: "";
         display: flex;
         position: absolute;
-        top: 20%;
+        top: -13%;
         left: 40%;
     }
     .first-sec-line::after{
         content: "";
         display: flex;
-        top: 30%;
+        top: 63%;
         left: 32%;
     }
     .sec-2-line::before {
@@ -524,7 +531,7 @@ align-items: flex-start;
     }
     .menu {
         z-index: 7;
-        position: fixed;
+        position:absolute;
         right: 2%;
         top: 33px;
     }
