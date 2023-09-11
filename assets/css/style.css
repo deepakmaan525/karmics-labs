@@ -287,9 +287,13 @@ align-items: flex-start;
     position: absolute;
     top: 74%;
     display: none;
+    transition: .4s;
 }
 .project-img:hover+.text-blur {
     display: block;
+}
+.project{
+    transition: .3s;
 }
 .project:hover {
     transform: scale(1.1);
