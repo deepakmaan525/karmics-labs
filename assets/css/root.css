@@ -21,6 +21,10 @@
     font-size: var(--fs-16);
     font-weight: var(--fw-500);
     color: var(--white);
+    
+}
+.f-nav-li:hover{
+    font-weight: var(--fw-700);
 }
 .f-button{
     font-size: var(--fs-16);

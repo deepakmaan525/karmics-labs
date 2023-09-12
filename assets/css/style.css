@@ -7,6 +7,7 @@
     list-style-type: none !important;
     text-decoration: none !important;
     /* border: 2px solid red; */
+    transition: .3s;
 }
 
 /* header */
@@ -90,6 +91,7 @@ nav ul {
 .f-nav-li{
     font-family: 'Sunflower', sans-serif;
     line-height: 180%;
+    transition: .3s;
 }
 .f-button{
     font-family: 'Sunflower', sans-serif;
@@ -253,6 +255,9 @@ align-items: flex-start;
 }
 .moon-hover:hover .moon-circle-1 {
     display: flex;    
+}
+.moon-hover{
+    transition: .3s;
 }
 /* 3rd-section */
 .mx-532 {
