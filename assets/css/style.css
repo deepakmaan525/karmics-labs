@@ -251,10 +251,11 @@ align-items: flex-start;
     top: -11%;
     left: 80%;
     transition: .3s;
-    display: none;
+    opacity: 0;
+    pointer-events: none;
 }
 .moon-hover:hover .moon-circle-1 {
-    display: flex;    
+    opacity: 1;   
 }
 .moon-hover{
     transition: .3s;
@@ -304,19 +305,18 @@ align-items: flex-start;
     backdrop-filter: blur(4.5px);
     position: absolute;
     bottom: 0;
-    display: none;
+    opacity: 0;
     transition: .4s;
-}
-.project-img:hover+.text-blur {
-    display: block;
 }
 .project{
     transition: .3s;
 }
 .project:hover {
     transform: scale(1.1);
-    z-index: 3;
-    
+    z-index: 3;   
+}
+.project:hover>div {
+    opacity: 1;
 }
 .sec-btn {
     border: 2px solid var(--black);
