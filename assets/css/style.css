@@ -89,6 +89,7 @@ nav ul {
 }
 .f-nav-li{
     font-family: 'Sunflower', sans-serif;
+    line-height: 180%;
 }
 .f-button{
     font-family: 'Sunflower', sans-serif;
@@ -106,12 +107,15 @@ nav ul {
 
 .f-page-des{    
     font-family: 'sunflower', sans-serif;
+    line-height: 180%;
 }
 .f-rotatecard-des{
     font-family: 'Sunflower', sans-serif;
+    line-height: 180%;
 }
 .f-rotatecard-main{
     font-family: 'Sunflower', sans-serif;
+    line-height: 180%;
 }
 .f-services-main{
 font-family: 'Space Grotesk', sans-serif;
@@ -307,7 +311,7 @@ align-items: flex-start;
 .project:hover {
     transform: scale(1.1);
     z-index: 3;
-    transition: .3s;
+    
 }
 .sec-btn {
     border: 2px solid var(--black);
